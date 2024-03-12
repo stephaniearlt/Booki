@@ -32,30 +32,27 @@
           <a href="#activity" class="link">Activités</a>
         </nav>
       </header>
+      
       <main>
         <!-- Find accommodation -->
         <section class="search-and-filter">
           <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
           <p>En plein centre-ville ou en pleine nature</p>
 
-          <!-- Search bar 
-            PROBLEME : "action" indique normalement l'adresse de la page ou du programme qui va traiter les informations. Dans notre cas, laisser vide. Message erreur validateur HTML ne peut donc pas être traiter. -->
+          <!-- Search bar -->
           <form
             class="search"
             method="get"
-            action=""
             aria-label="Formulaire de recherche de localisation"
           >
             <i class="fa-solid fa-location-dot" id="icon-search"></i>
-            <!-- PROBLEME : Avec "type search ou text", message d'erreur validateur -->
             <input
-              type="search"
+              type="text"
               name="recherche"
               id="text-search"
               value="Marseille, France"
               placeholder="Marseille"
               aria-label="Entrez votre localisation"
-              role="button"
             />
             <button type="submit" class="desktop">Rechercher</button>
             <button type="submit" class="mobile">
@@ -96,7 +93,7 @@
         </section>
 
         <!-- Hebergements And Populaires-->
-        <section class="hebergements-and-populaires">
+        <div class="hebergements-and-populaires">
           <!-- Hebergements -->
           <section class="hebergements">
             <div id="hebergements" class="hebergements-title">
@@ -375,7 +372,7 @@
               </a>
             </div>
           </section>
-        </section>
+        </div>
 
         <!-- Activity -->
         <section class="activity">

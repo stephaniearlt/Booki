@@ -93,11 +93,14 @@ nav {
 nav a {
   margin: 0 15px;
   padding-top: 10px;
+  border-top: 2px solid transparent;
+  display: inline-block;
+  /* Pour fixer la hauteur du lien */
 }
 
 .link:hover {
   color: #0065fc;
-  border-top: 2px solid #0065fc;
+  border-top-color: #0065fc;
 }
 
 /******* Find accommodation *******/
@@ -144,7 +147,8 @@ p {
   display: none;
 }
 
-.desktop, .mobile {
+.desktop,
+.mobile {
   background-color: #0065fc;
   padding: 15px 16px 15px 16px;
   border-radius: 0px 15px 15px 0px;
@@ -543,6 +547,7 @@ p {
   .filter ul {
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
   }
 
   .filter li {
