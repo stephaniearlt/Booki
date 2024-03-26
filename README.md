@@ -6,9 +6,9 @@
  
 ● Le champ de recherche est un champ de saisie, le texte doit donc pouvoir être édité par l’utilisateur.
  
-● Il faut englober ce champ dans un formulaire. La partie Recherche ne doit pas être fonctionnelle - il s’agit d’une première version pour valider l’interface.
+● La partie Recherche ne doit pas être fonctionnelle - il s’agit d’une première version pour valider l’interface.
 
-● Les textes “Hébergements”et“Activités”, situés dans l’en-tête, sont des liens. Ils doivent mener respectivement vers la section “Hébergements à Marseille” et “Activités à Marseille”.
+● Les textes “Hébergements” et “Activités”, situés dans l’en-tête, sont des liens. Ils mènent respectivement vers la section “Hébergements à Marseille” et “Activités à Marseille”.
 
 ● Chaque carte d’hébergement ou d’activité doit être cliquable dans son intégralité.
  
@@ -42,7 +42,7 @@ Il est recommandé d'utiliser Flexbox.
 
 Il est important d’utiliser des balises sémantiques.
 
-Aucun IDE ou éditeur de code particulier n’est imposé pour le développement.
+Aucun IDE ou éditeur de code particulier n’est imposé pour le développement. J'ai choisi d'utiliser Visual Studio Code.
 
 Le code doit être valide aux validateurs W3C HTML et CSS.
 
@@ -59,3 +59,35 @@ La maquette doit être compatible avec les dernières versions de Google Chrome 
 Aucun framework CSS (type BootStrap ou Tailwind CSS) ou préprocesseur CSS (type Sass ou Less) ne doit être utilisé.
 
 Aucun autre langage ne doit être utilisé (comme JavaScript,par exemple).
+
+**Réalisation**
+
+Le projet a été livré dans son intégralité et sous sa forme actuel sous 3 semaines.
+
+**Évaluation des compétences par Openclassrooms**
+
+Le projet utilise du desktop first ; le CSS de base est bien celui de la version desktop et les média queries vont vers les écrans moins larges.  
+
+Le site s'adapte à toutes les tailles d'écrans de plus de 320 px. A partir de 1440 px, l'affichage ne change pas. Les breakpoints 768 px et 1024 px sont respectés ; ceux-ci permettent le bon affichage de la page et le respect des maquettes mobile/tablette et desktop.
+
+Les images ne sont pas déformées. Le code CSS est dans un ou plusieurs fichiers contenus dans un dossier CSS.
+
+Les images, logos, icônes, polices, couleurs et textes sont exactement les bons et disposés aux mêmes endroits que sur la maquette. 
+
+Les tailles et distances entre les éléments sont les mêmes que sur la maquette. 
+
+Les polices sont intégrées via Google Font et les icônes via FontAwesome. 
+
+Le code HTML ne soulève aucune erreur sur le validateur W3C. 
+
+La hiérarchie des titres (h1-2-3…) est respectée.
+
+Aucune propriété CSS n’est passée dans le code HTML. 
+
+Aucun code HTML n’est dupliqué. 
+
+Une tolérance est faite concernant le mot “Rechercher” et la loupe dans le champ de recherche. 
+
+Le code HTML utilise des balises sémantiques en accord avec le type de contenu qu’elles représentent.
+
+Bonne présentation des livrables, l'étudiante a su démontrer ses compétences acquises durant le projet.
